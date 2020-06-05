@@ -1,0 +1,90 @@
+@media(max-width:900px){
+    #page-home{
+        background-position-x: 100vw;    
+    }
+    #page-home .container{
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header a{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+    #page-home main{
+        align-items: center;
+    }
+    #page-search-results .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    #page-search-results .cards img{
+        height: 200px;
+    }
+    #page-create-point .field-group{
+        flex-direction: column;
+    }
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+}
+
+@media(min-width:1700px){
+    #page-home{
+        background-position-x: 40vw;    
+    }
+}
+@media(max-width:760px){
+    #page-home{
+        background-position-x: 100vw;    
+    }
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+    #page-search-results .cards img{
+        height: 300px;
+    }
+    
+    #page-create-point .items-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:500px){
+    #page-create-point .items-grid{
+        grid-template-columns: 1fr;
+    }
+    #page-create-point .items-grid{
+        text-align: center;
+    }
+    #page-create-point form h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    #page-create-point form legend{
+        font-size: 16px;
+        text-align: center;
+    }
+    #page-create-point form button{
+        width: auto;
+    }
+    #page-create-point form legend.items{
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+    #page-create-point form button{
+        width: 100%;
+        height: 56px;
+    }
+    #page-create-point form{
+        margin-top: 50px;
+        padding: 30px;
+    }
+}
+
+@media(max-height:760px){
+    #page-home{
+        background-position-y: 200px;    
+    }
+}

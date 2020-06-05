@@ -23,6 +23,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js][nodejs]
 - [TypeScript][typescript]
+- Sqlite
 
 ## 🔖 Layout
 
@@ -31,7 +32,7 @@ Para acessar o layout, use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk
 ## :information_source: 
 Como usar
 
-Para clonar e executar este aplicativo, você precisará [Git] (https://git-scm.com), [Node.js] [nodejs] + [Yarn] [yarn] instalado no seu computador.
+Para clonar e executar este aplicativo, você precisará [Git] (https://git-scm.com), [Node.js] [nodejs] instalado no seu computador.
 
 Na sua linha de comando:
 
@@ -49,14 +50,12 @@ $ yarn install
 $ npm i
 
 # 
-Executar migrações
-$ yarn knex:migrate
-
-# Executar Seeds
-$ yarn knex:seed
+Criar banco de dados
+$ node src/database/db.js
 
 # Iniciar servidor
 $ yarn start
+$ npm start
 
 Executando na porta 3000
 ```

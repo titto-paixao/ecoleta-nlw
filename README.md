@@ -1,10 +1,6 @@
 # ecoleta-nlw
 Projeto desenvolvido na primeira Next Level Week da RocketSeat
 
-<h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
-</h1>
-
 <h4 align="center"> 
 	:construction: NextLevelWeek 1.0 🚀 In progress.. :construction:
 </h4>
@@ -19,11 +15,6 @@ Um evento online e totalmente gratuito que o ajudará a dar o próximo passo na 
 
 Ecoleta é um projeto desenvolvido com base na semana internacional do meio ambiente.
 O objetivo é conectar pessoas a empresas que coletam resíduos específicos, como lâmpadas, baterias, óleo de cozinha etc.
-
-<h1 align="center">
-    <img alt="Example" title="Example" src=".github/capa.svg" width="500px" />
-</h1>
-
 
 ## :rocket: Tecnologias
 

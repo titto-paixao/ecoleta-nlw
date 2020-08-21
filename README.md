@@ -1,61 +1,47 @@
-# ecoleta-nlw
-Projeto desenvolvido na primeira Next Level Week da RocketSeat
+<h1 align="center">
+    <img src="public/assets/logo.svg">
+</h1>
 
-<h4 align="center"> 
-	:construction: NextLevelWeek 1.0 🚀 In progress.. :construction:
-</h4>
+<h1>
+    <img src="https://user-images.githubusercontent.com/53455375/90925837-48a5a100-e3c8-11ea-9642-00b06fd66355.png"  width="49%" height"100%">
+    <img src="https://user-images.githubusercontent.com/53455375/90925843-49d6ce00-e3c8-11ea-8169-4702f5f66115.png"  width="49%" height"100%">
+</h1>
 
-## :information_source: Next Level Week
+<h1>
+    <img src="https://user-images.githubusercontent.com/53455375/90925845-49d6ce00-e3c8-11ea-840a-91128cdbf6f4.png" width="49%" height"100%">
+    <img src="https://user-images.githubusercontent.com/53455375/90925846-4b07fb00-e3c8-11ea-8c1e-784985e2a990.png" width="49%" height"100%">
+</h1>
 
-O NLW é uma semana prática com muito código, desafios, redes e um único objetivo: levá-lo ao próximo nível.
-Através do nosso método, você aprenderá novas ferramentas, aprenderá sobre novas tecnologias e descobrirá hacks que irão impulsionar sua carreira.
-Um evento online e totalmente gratuito que o ajudará a dar o próximo passo na sua evolução como desenvolvedor.
+## 🔖 Sobre
 
-## 💻 Projeto
-
-Ecoleta é um projeto desenvolvido com base na semana internacional do meio ambiente.
-O objetivo é conectar pessoas a empresas que coletam resíduos específicos, como lâmpadas, baterias, óleo de cozinha etc.
-
-## :rocket: Tecnologias
+O projeto **Ecoleta** é um marketplace de coleta de resíduos. Projeto criado na semana **Next Week Level** com o intuito de introdução ao desenvolvimento web.
 
 
-Este projeto foi desenvolvido com as seguintes tecnologias:
+## 🚀 Tecnologias utilizadas
 
-- [Node.js][nodejs]
-- [TypeScript][typescript]
-- Sqlite
+O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-## 🔖 Layout
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Express](https://expressjs.com/pt-br/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [JavaScript](https://www.javascript.com/)
+- [Nodejs](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+- [Sqlite](https://www.sqlite.org/index.html)
 
-Para acessar o layout, use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
-
-## :information_source: 
-Como usar
-
-Para clonar e executar este aplicativo, você precisará [Git] (https://git-scm.com), [Node.js] [nodejs] instalado no seu computador.
-
-Na sua linha de comando:
-
-### Instalar API 
+## 🗂 Como baixar e iniciar o projeto
 
 ```bash
-# Clonar o repositório
-$ git clone https://github.com/titto-paixao/ecoleta-nlw.git
 
-# Entre no repositório
-$ cd ecoleta-nlw
+    # Clonar o repositório
+    $ git clone https://github.com/titto-paixao/ecoleta-nlw
 
-# Instalar as dependências
-$ yarn install
-$ npm i
+    # Entrar no diretório
+    $ cd ecoleta-nlw
 
-# 
-Criar banco de dados
-$ node src/database/db.js
-
-# Iniciar servidor
-$ yarn start
-$ npm start
-
-Executando na porta 3000
+    # Instale as dependências
+    $ npm install
+    
+    # Iniciar o projeto
+    $ npm start
 ```
